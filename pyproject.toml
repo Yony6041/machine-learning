@@ -9,7 +9,7 @@ authors = [
     "Yonathan Berith Jaramillo Ramírez <dercomputerschamane@gmail.com>",
 ]
 
-repository = "https://github.com/"
+repository = "https://github.com/Yony6041/machine-learning"
 
 
 # README file(s) are used as the package description
@@ -35,10 +35,11 @@ black = "^23.10.0"
 pre-commit = "^3.6.0"
 rich = "^13.7.0"
 scikit-learn = "^1.4.0"
+matplotlib = "^3.8.2"
 
 
 [tool.pytest.ini_options]
 console_output_style = "count"
 minversion = "6.0"
-addopts = "--new-first --spec --verbose --instafail --cov-branch -rA -n 4 --capture=fd --cov=./ --cov-report=term --cov-report=term-missing --color=yes --code-highlight=yes --durations=5 -vv --cov-fail-under=30 -m 'not costoso'"
+addopts = "--new-first --spec --verbose --instafail --cov-branch -rA -n 4 --capture=fd --cov=./ --cov-report=term --cov-report=term-missing --color=yes --code-highlight=yes --durations=5 -vv --cov-fail-under=30"
 python_files = ["*_test.py"]

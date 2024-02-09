@@ -1,0 +1,27 @@
+# * Cache
+.mypy_cache
+.pytest_cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# * Python virtual environment
+brain-env/
+
+# * Tests
+/coverage
+.coverage
+.coverage 2
+/.nyc_output
+
+# ! Environment variables
+.env
+
+# * Automated logs
+logs/
+
+# * API KEYS & PASSWORDS
+.API_KEY
+.dbUserPwd

@@ -20,3 +20,14 @@ repos:
         entry: black
         language: system
         types: [python]
+
+  # * ================================== Testing ==================================
+
+  # * Pytest with coverage
+  - repo: local
+    hooks:
+      - id: pytest-coverage
+        name: Pytest with coverage
+        entry: pytest
+        language: system
+        pass_filenames: false
