@@ -2,6 +2,15 @@
     "recommendations": [
         "mechatroner.rainbow-csv",
         "njpwerner.autodocstring",
-        "ms-toolsai.jupyter"
+        "ms-toolsai.jupyter",
+        "aaron-bond.better-comments",
+        "oderwat.indent-rainbow",
+        "pkief.material-icon-theme",
+        "ms-python.python",
+        "njpwerner.autodocstring",
+        "ms-python.black-formatter",
+        "ms-vscode.makefile-tools",
+        "tamasfe.even-better-toml",
+        "redhat.vscode-yaml",
     ]
 }
