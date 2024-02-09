@@ -38,6 +38,9 @@ scikit-learn = "^1.4.0"
 matplotlib = "^3.8.2"
 
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+
 [tool.pytest.ini_options]
 console_output_style = "count"
 minversion = "6.0"

@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "mechatroner.rainbow-csv"
+        "mechatroner.rainbow-csv",
+        "njpwerner.autodocstring",
+        "ms-toolsai.jupyter"
     ]
 }
