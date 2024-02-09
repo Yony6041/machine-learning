@@ -31,12 +31,10 @@ pytest-spec = "^3.2.0"
 pytest-sugar = "^0.9.7"
 pytest-xdist = "^3.3.1"
 coverage = "^7.3.2"
-commitizen = "^3.13.0"
 black = "^23.10.0"
-blacken-docs = "^1.16.0"
-mdformat = "^0.7.17"
 pre-commit = "^3.6.0"
 rich = "^13.7.0"
+scikit-learn = "^1.4.0"
 
 
 [tool.pytest.ini_options]
