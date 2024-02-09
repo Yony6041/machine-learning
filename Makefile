@@ -5,3 +5,8 @@
 
 PYTHON_VERSION = 3.12.1
 .PHONY: help
+
+# * Install all python dependencies
+setup:
+	poetry install
+	@python3 utils/ui/setup.py; \

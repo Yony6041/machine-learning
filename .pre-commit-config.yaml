@@ -1,0 +1,24 @@
+---
+
+default_install_hook_types:
+  - pre-commit
+  - commit-msg
+  - pre-push
+  - post-commit
+
+default_stages:
+  - commit
+  - push
+  - commit-msg
+
+repos:
+
+  # * ================================== Formatters ==================================
+  # * Black hook
+  - repo: local
+    hooks:
+      - id: black
+        name: Black formatter
+        entry: black
+        language: system
+        types: [python]
