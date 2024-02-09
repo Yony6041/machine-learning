@@ -9,4 +9,4 @@ PYTHON_VERSION = 3.12.1
 # * Install all python dependencies
 setup:
 	poetry install
-	@python3 utils/ui/setup.py; \
+	@python3 machine_learning/utils/ui/setup.py; \
